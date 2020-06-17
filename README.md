@@ -8,14 +8,14 @@ sh command_for_rG4.sh example_fasta.fa #Bash
 ```
 The file final_rG4_sites.bed will be generated, with the following format:
 
-| Chromosome | Begin | End |
-| ----- | ----- | ----- |
-| chr10 | 114752403 | 114752426 |
-
 | Chromosome | Begin | End | rG4_sequence | color | strand | rG4_type |
-| ---------- | ----------- | ---------- | ----------- | ---------- | ----------- |
-| chr10 |  |  | GGGCGGCGGGGTAGCGGCGGCGGG | 0 | - | Bulge |
+|:----- |:----- |:----- |:----- |:----- |:----- |:----- |:----- |
+| chr10 | 114752403 | 114752426 | GGGCGGCGGGGTAGCGGCGGCGGG | 0 | - | Bulge |
 
+
+| Chromosome | Begin | End | 
+| ---------- | ----------- | ---------- | ----------- | ---------- | ----------- |
+| chr10 |  |  | 
 
 ## 2. AU-rich element (ARE) identification
 Please prepare the fasta file as input (e.g. example_fasta.fa), and run the commmand_for_ARE.sh:
