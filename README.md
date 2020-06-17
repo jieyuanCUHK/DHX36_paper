@@ -13,13 +13,13 @@ The file final_rG4_sites.bed will be generated, with the following format:
 | chr10 | 114752403 | 114752426 | GGGCGGCGGGGTAGCGGCGGCGGG | 0 | - | Bulge |
 
 
-| Chromosome | Begin | End | 
-| ---------- | ----------- | ---------- | ----------- | ---------- | ----------- |
-| chr10 |  |  | 
-
 ## 2. AU-rich element (ARE) identification
 Please prepare the fasta file as input (e.g. example_fasta.fa), and run the commmand_for_ARE.sh:
 ```Bash
 sh command_for_ARE.sh example_fasta.fa #Bash
 ```
-A bed-format file final_AREs.bed will be generated.
+The file final_AREs.bed will be generated, with the following format:
+
+| Chromosome | Begin | End | ARE_sequence | color | strand | ARE_class |
+|:----- |:----- |:----- |:----- |:----- |:----- |:----- |
+| chr15 | 27396407 | 27396420 | GGTTATTTATTTA | 0 | - | Class_two |
