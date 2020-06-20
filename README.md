@@ -2,7 +2,7 @@ Code for the manuscript "mRNA translation control by Dhx36 binding to 5'UTR G4 s
 ===
 All the code here are tested in Python2.7.15 and CentOS7.3.1611.
 ## 1. rG4 site identification
-Please prepare the fasta file as input (e.g. example_fasta.fa), and run the commmand_for_rG4.sh:
+Please prepare the fasta file as input (e.g. example_fasta.fa), and run the command_for_rG4.sh:
 ```Bash
 sh command_for_rG4.sh example_fasta.fa #Bash
 ```
@@ -14,7 +14,7 @@ The file final_rG4_sites.bed will be generated, with the following format:
 
 
 ## 2. AU-rich element (ARE) identification
-Please prepare the fasta file as input (e.g. example_fasta.fa), and run the commmand_for_ARE.sh:
+Please prepare the fasta file as input (e.g. example_fasta.fa), and run the command_for_ARE.sh:
 ```Bash
 sh command_for_ARE.sh example_fasta.fa #Bash
 ```
