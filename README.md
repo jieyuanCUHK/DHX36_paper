@@ -1,4 +1,4 @@
-Code for the manuscript "mRNA translation control by Dhx36 binding to 5'UTR G4 structures is essential for skeletal muscle stem cell regenerative functions"
+Code for the manuscript "mRNA translation control by Dhx36 binding to 5’UTR G-quadruplex structures is essential for skeletal muscle stem cell regenerative functions"
 ===
 All the code here are tested in Python2.7.15 and CentOS7.3.1611.
 ## 1. rG4 site identification
