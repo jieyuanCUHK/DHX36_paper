@@ -23,3 +23,7 @@ The file final_AREs.bed will be generated, with the following format:
 | Chromosome | Begin | End | ARE_sequence | color | strand | ARE_class |
 |:----- |:----- |:----- |:----- |:----- |:----- |:----- |
 | chr15 | 27396407 | 27396420 | GGTTATTTATTTA | 0 | - | Class_two |
+
+## 3. Cell-level G4 intensity quantification
+Please first mask individual cells with green mask (example image below), and change the directory in 2_Image_processing/code.m for quantification. Cell-level quantifications will be generated.
+
