@@ -1,6 +1,6 @@
 Code for the manuscript "mRNA translation control by Dhx36 binding to 5’UTR G-quadruplex structures is essential for skeletal muscle stem cell regenerative functions"
 ===
-All the code here are tested in Python2.7.15 and CentOS7.3.1611.
+All the code here are tested in Python2.7.15, CentOS7.3.1611 and Matlab R2014b.
 ## 1. rG4 site identification
 Please prepare the fasta file as input (e.g. example_fasta.fa), and run the command_for_rG4.sh:
 ```Bash
