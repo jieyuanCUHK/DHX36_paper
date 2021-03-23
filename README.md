@@ -25,6 +25,7 @@ The file final_AREs.bed will be generated, with the following format:
 | chr15 | 27396407 | 27396420 | GGTTATTTATTTA | 0 | - | Class_two |
 
 ## 3. Cell-level G4 intensity quantification
-Please first mask individual cells with green mask (example image below), and change the directory in 2_Image_processing/code.m for quantification. Cell-level quantifications will be generated.
+Please first mask individual cells with green mask (example image below), and change the directory in 2_Image_processing/code.m for quantification. 
+After running the code in Matlab, cell-level quantifications will be generated (stored in result variable).
 
 ![KO-4_b0t0z0c0-2x0-1024y0-1024](https://user-images.githubusercontent.com/40020029/112088866-858a7e00-8bcb-11eb-896c-faafb126cad0.jpg)
